@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Shop - Chuyên Acc Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">Hacker<span>Shop</span></a>
+            <div id="auth-links" class="nav-links">
+                <a href="#" id="home-link">Trang chủ</a>
+                <!-- Links will change based on auth state -->
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Sở hữu account game đỉnh nhất</h1>
+            <p>Uy tín - Bảo mật (giả) - Giao hàng tự động</p>
+        </div>
+    </header>
+
+    <main class="container content" id="main-content">
+        <!-- Content will be injected here -->
+    </main>
+
+    <footer class="container">
+        <hr>
+        <p>&copy; 2026 HackerShop. Dự án demo cho mục đích giáo dục bảo mật.</p>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modal-overlay" class="modal-overlay"></div>
+    <div id="modal" class="modal">
+        <button class="close-modal">&times;</button>
+        <div id="modal-body"></div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
